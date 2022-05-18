@@ -985,10 +985,9 @@ Recent Listing
 */
 
 .recent-listing {
-  margin-top: 120px;
-  padding-top: 120px;
-  margin-bottom: 120px;
-  border-top: 1px solid #eee;
+  margin-top: 0px;
+  padding-top: 0px !important;
+  margin-bottom: 0px;
 }
 
 .recent-listing .section-heading {
@@ -1111,17 +1110,12 @@ Recent Listing
 }
 
 .recent-listing .owl-dots {
-  margin-top: 15px;
+
   text-align: center;
 }
 
 .recent-listing .owl-dots .owl-dot {
-  width: 10px;
-  height: 10px;
-  background-color: #8d99af;
-  border-radius: 50%;
-  margin: 0px 5px;
-  transition: all .3s;
+
 }
 
 .recent-listing .owl-dots .active {
